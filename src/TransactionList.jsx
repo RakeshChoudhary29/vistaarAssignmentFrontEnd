@@ -36,9 +36,7 @@ export default function TransactionList({ accountId }) {
 
   return (
     <div className="p-6 bg-white rounded-xl shadow-md">
-      <h3 className="text-xl font-semibold text-gray-800 mb-4">
-        Transactions for <span className="text-blue-600 font-mono">{accountId}</span>
-      </h3>
+    
 
       {loading && (
         <div className="text-center text-gray-500 py-4">Loading transactions...</div>
