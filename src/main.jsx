@@ -13,7 +13,7 @@ createRoot(document.getElementById('root')).render(
     <GoogleOAuthProvider clientId={`${clientId}`}>
 
     <App />
-    /</GoogleOAuthProvider>
+    </GoogleOAuthProvider>
     </BrowserRouter>
   </StrictMode>,
 )
